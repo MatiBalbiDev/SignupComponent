@@ -1,0 +1,27 @@
+* {
+  max-width: 1440px;
+}
+
+body {
+  background-image: url("./images/bg-intro-desktop.png");
+  background-color: hsl(0, 100%, 74%);
+  width: 1114px;
+  height: 559px;
+  margin: 121px 164px 112px 162px;
+}
+
+titles {
+  float: left;
+}
+
+form {
+  float: left;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
