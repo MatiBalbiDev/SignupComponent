@@ -1,5 +1,6 @@
 * {
   max-width: 1440px;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -8,14 +9,46 @@ body {
   width: 1114px;
   height: 559px;
   margin: 121px 164px 112px 162px;
+  font-size: 16px;
 }
 
-titles {
-  float: left;
+.container {
+  display: flex;
+}
+
+.titles {
+  color: #fff;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 2.9rem;
 }
 
 form {
-  float: left;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ofert {
+  background-color: hsl(248, 32%, 49%);
+  color: #fff;
+}
+
+.submitInfo {
+  background-color: hsl(154, 59%, 51%);
+  color: #fff;
+}
+
+.message {
+  color: hsl(246, 25%, 77%);
+}
+
+.terms&Services {
+  color: hsl(0, 100%, 74%);
 }
 
 .attribution {
