@@ -17,15 +17,6 @@ body {
   padding-top: 120px;
 }
 
-.titles {
-  color: #fff;
-}
-
-.title {
-  font-weight: 600;
-  font-size: 2.9rem;
-}
-
 .infoComponent {
   margin-bottom: 121px;
   margin-right: 165px;
@@ -82,6 +73,11 @@ body {
   box-shadow: 0 7px 1px rgba(0, 0, 0, 0.2);
 }
 
+.ofert span {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
 .submitInfo {
   background-color: hsl(154, 59%, 51%);
   color: #fff;
@@ -105,6 +101,27 @@ body {
   text-align: center;
   color: hsl(246, 25%, 77%);
   font-size: 0.7rem;
+}
+
+.textComponent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  height: 595px;
+  width: 495px;
+  /* padding-right: 77px; */
+}
+
+.title {
+  margin: 0;
+  font-size: 2.1rem;
+  line-height: 1;
+}
+
+.info {
+  font-size: 0.75rem;
 }
 
 .message__services {
